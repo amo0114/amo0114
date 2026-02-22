@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="MoYuan Header" />
+  <img src="./header-new.svg" width="60%" alt="MoYuan Header" />
 
   <img src="https://readme-typing-svg.herokuapp.com?font=DM+Mono&weight=500&size=15&pause=2000&color=36BCF7&center=true&vCenter=true&width=500&lines=%22Build+systems+that+survive+reality.%22" alt="Typing" />
   
