@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="88%" alt="MoYuan Header" />
+  <img src="./header-new.svg" width="58%" alt="MoYuan Header" />
 </div>
 
 <h2 align="center">👋 你好，我是 MoYuan</h2>
