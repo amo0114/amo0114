@@ -59,8 +59,8 @@ Backend · System Design · Performance · DevOps
 ## 📊 开发者统计 / GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amo0114&show_icons=true&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amo0114&layout=compact&langs_count=6&title_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats-psi-seven-77.vercel.app/api?username=amo0114&show_icons=true&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats-psi-seven-77.vercel.app/api/top-langs/?username=amo0114&layout=compact&langs_count=6&title_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true" />
 </p>
 
 ---
