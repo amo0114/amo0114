@@ -1,20 +1,12 @@
 <div align="center">
   <img src="./header-new.svg" width="60%" alt="MoYuan Header" />
   
-  <br/><br/>
+  <br/>
 
   <img src="https://readme-typing-svg.herokuapp.com?font=DM+Mono&weight=500&size=15&pause=2000&color=36BCF7&center=true&vCenter=true&width=500&lines=%22Build+systems+that+survive+reality.%22" alt="Typing" />
-  
-  <br/><br/>
-
-  <a href="mailto:moyuan@oai-o.com">
-    <img src="https://img.shields.io/badge/Email-moyuan%40oai--o.com-36BCF7?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-System_Design_%26_DevOps-36BCF7?style=flat-square&logo=target&logoColor=white" alt="Focus" />
-  <img src="https://komarev.com/ghpvc/?username=amo0114&label=VIEWS&color=36BCF7&style=flat-square" alt="Views" />
 </div>
 
-<br/><br/>
+<br/>
 
 <img align="left" width="80" height="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPjwvc3ZnPg==" />
 
@@ -38,7 +30,7 @@
 </p>
 
 <br clear="both"/>
-<br/><br/>
+<br/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/amo0114/amo0114/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Graph" />
@@ -47,5 +39,13 @@
 <br/>
 
 <div align="center">
+  <a href="mailto:moyuan@oai-o.com">
+    <img src="https://img.shields.io/badge/Email-moyuan%40oai--o.com-36BCF7?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-System_Design_%26_DevOps-36BCF7?style=flat-square&logo=target&logoColor=white" alt="Focus" />
+  <img src="https://komarev.com/ghpvc/?username=amo0114&label=VIEWS&color=36BCF7&style=flat-square" alt="Views" />
+  
+  <br/><br/>
+  
   <sub><code>// 让日志记住夜色，让发布迎来清晨。</code></sub>
 </div>
