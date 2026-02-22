@@ -16,20 +16,22 @@
 
 <br/><br/>
 
+<img align="left" width="80" height="1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPjwvc3ZnPg==" />
+
 <a href="#">
   <img align="left" src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,rabbitmq,docker,nginx,linux,git,maven,idea,vue,ts&perline=4" alt="Tech Stack" />
 </a>
 
-<h2>✦ 架构守望者</h2>
+<h3>✦ 系统构建者</h3>
 
-<h3>
+<p>
   <i>“系统如同夜行的列车。<br/>
   速度人人看得见，<br/>
   稳定却藏在告警响起后的沉默与回滚之间。”</i>
-</h3>
+</p>
 
 <p>
-  我不愿用冗余的代码垒叠废墟，更偏爱在暗夜里将脱轨的系统稳稳拉回黎明。<br/><br/>
+  比起用冗余的代码垒叠功能，我更偏爱写出务实的工程。<br/><br/>
   <b>后端开发</b> · <b>系统设计</b> · <b>DevOps</b><br/>
   高并发缓存 / 异步解耦 / 性能优化 / CI·CD<br/>
   坚持把「能跑」写成「可观测、可恢复、可迭代」。
