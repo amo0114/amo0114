@@ -5,7 +5,7 @@
 <h2 align="center">👋 Hi, I'm MoYuan</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=DM+Mono&size=18&pause=1600&color=36BCF7&center=true&vCenter=true&width=760&lines=%E6%9C%89%E7%9A%84%E7%B3%BB%E7%BB%9F%E8%B7%91%E5%BE%97%E5%BF%AB%EF%BC%8C%E6%9C%89%E7%9A%84%E7%B3%BB%E7%BB%9F%E8%B7%91%E5%BE%97%E7%A8%B3%E3%80%82;%E6%88%91%E6%9B%B4%E5%85%B3%E5%BF%83%E5%90%8E%E8%80%85%E3%80%82" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=DM+Mono&size=18&pause=1800&color=36BCF7&center=true&vCenter=true&width=760&lines=%22Build+systems+that+survive+reality.%22" />
 </p>
 
 <p align="center">
@@ -18,17 +18,17 @@
 
 ---
 
-### ✦ ABOUT
+## ✦ ABOUT
 
 > **“系统如同夜行的列车。速度人人看得见，稳定却藏在告警响起后的沉默与回滚之间。”**
->
-> <sub><b>领域</b>：后端开发 · 系统设计 · DevOps 工程化</sub><br/>
-> <sub><b>关注</b>：缓存策略 / 异步解耦 / 性能优化 / CI·CD 容器化交付</sub><br/>
-> <sub><b>取向</b>：把「能跑」写成「可观测、可恢复、可迭代」</sub>
 
-<br/>
+<sub><b>领域</b>：后端开发 · 系统设计 · DevOps 工程化</sub><br/>
+<sub><b>关注</b>：缓存策略 / 异步解耦 / 性能优化 / CI·CD 容器化交付</sub><br/>
+<sub><b>取向</b>：把「能跑」写成「可观测、可恢复、可迭代」</sub>
 
-### 🛠 TECH STACK
+---
+
+## 🛠 TECH STACK
 
 <p>
   <code>Backend   </code>&nbsp;<img src="https://skillicons.dev/icons?i=java,spring" valign="middle" /><br/>
