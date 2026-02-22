@@ -1,0 +1,173 @@
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" width="900" height="280">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=DM+Mono:wght@300;400&amp;display=swap');
+
+      .bg { fill: #0a0a0a; }
+
+      /* Grid lines */
+      .grid { stroke: #1a1a1a; stroke-width: 1; }
+
+      /* Corner marks */
+      .corner { stroke: #ffffff; stroke-width: 1.5; fill: none; }
+
+      /* Main name */
+      .name {
+        font-family: 'Bebas Neue', 'Arial Black', sans-serif;
+        font-size: 112px;
+        font-weight: 400;
+        fill: #ffffff;
+        letter-spacing: 18px;
+      }
+
+      /* Tag line */
+      .tagline {
+        font-family: 'DM Mono', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #555555;
+        letter-spacing: 4px;
+      }
+
+      /* Accent line */
+      .accent { stroke: #ffffff; stroke-width: 1; }
+
+      /* Dot marker */
+      .dot { fill: #ffffff; }
+
+      /* Animated scan line */
+      .scanline {
+        fill: none;
+        stroke: #ffffff;
+        stroke-width: 0.5;
+        opacity: 0;
+        animation: scan 4s ease-in-out infinite;
+      }
+
+      /* Typewriter cursor */
+      .cursor {
+        fill: #ffffff;
+        animation: blink 1s step-end infinite;
+      }
+
+      /* Name reveal */
+      .name-clip {
+        animation: revealX 1.2s cubic-bezier(0.77,0,0.18,1) 0.2s both;
+      }
+
+      /* Stagger reveals */
+      .line1 { animation: fadeUp 0.8s ease 0.1s both; }
+      .line2 { animation: fadeUp 0.8s ease 0.35s both; }
+      .line3 { animation: fadeUp 0.8s ease 0.55s both; }
+      .line4 { animation: fadeUp 0.8s ease 0.75s both; }
+      .line5 { animation: fadeUp 0.8s ease 0.95s both; }
+      .divider { animation: expandW 0.9s cubic-bezier(0.77,0,0.18,1) 0.4s both; }
+      .corner-tl { animation: drawCorner 0.6s ease 0s both; }
+      .corner-tr { animation: drawCorner 0.6s ease 0.15s both; }
+      .corner-bl { animation: drawCorner 0.6s ease 0.3s both; }
+      .corner-br { animation: drawCorner 0.6s ease 0.45s both; }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes expandW {
+        from { transform: scaleX(0); transform-origin: left; }
+        to   { transform: scaleX(1); transform-origin: left; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes scan {
+        0%   { opacity: 0; transform: translateY(0px); }
+        10%  { opacity: 0.06; }
+        90%  { opacity: 0.06; }
+        100% { opacity: 0; transform: translateY(260px); }
+      }
+      @keyframes drawCorner {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @keyframes revealX {
+        from { clip-path: inset(0 100% 0 0); }
+        to   { clip-path: inset(0 0% 0 0); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50%       { opacity: 1; }
+      }
+    </style>
+
+    <clipPath id="nameClip">
+      <rect x="0" y="0" width="900" height="280" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" class="bg"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="70"  x2="900" y2="70"  class="grid"/>
+  <line x1="0" y1="210" x2="900" y2="210" class="grid"/>
+  <line x1="200" y1="0" x2="200" y2="280" class="grid"/>
+  <line x1="700" y1="0" x2="700" y2="280" class="grid"/>
+
+  <!-- Scan line animation -->
+  <rect x="0" y="0" width="900" height="2" class="scanline"/>
+
+  <!-- Corner brackets — TL -->
+  <g class="corner-tl">
+    <polyline points="28,50 28,28 50,28" class="corner"/>
+  </g>
+  <!-- Corner brackets — TR -->
+  <g class="corner-tr">
+    <polyline points="850,28 872,28 872,50" class="corner"/>
+  </g>
+  <!-- Corner brackets — BL -->
+  <g class="corner-bl">
+    <polyline points="50,252 28,252 28,230" class="corner"/>
+  </g>
+  <!-- Corner brackets — BR -->
+  <g class="corner-br">
+    <polyline points="850,252 872,252 872,230" class="corner"/>
+  </g>
+
+  <!-- Small index label top-left -->
+  <g class="line1">
+    <text x="44" y="48" class="tagline">[ PROFILE — 01 ]</text>
+  </g>
+
+  <!-- Small label top-right -->
+  <g class="line2">
+    <text x="700" y="48" class="tagline" text-anchor="start">BACKEND ENGINEER</text>
+  </g>
+
+  <!-- Main name — with reveal animation -->
+  <g style="clip-path: url(#nameClip)">
+    <g class="name-clip">
+      <text x="450" y="178" class="name" text-anchor="middle">MOYUAN</text>
+    </g>
+  </g>
+
+  <!-- Divider line under name -->
+  <g class="divider">
+    <line x1="44" y1="196" x2="856" y2="196" class="accent"/>
+  </g>
+
+  <!-- Bottom row -->
+  <g class="line3">
+    <circle cx="52" cy="222" r="2.5" class="dot"/>
+    <text x="64" y="226" class="tagline">SPRING BOOT</text>
+  </g>
+  <g class="line4">
+    <circle cx="200" cy="222" r="2.5" class="dot" style="animation: pulse 2s ease 1s infinite;"/>
+    <text x="212" y="226" class="tagline">REDIS · RABBITMQ · DOCKER</text>
+  </g>
+  <g class="line5">
+    <text x="700" y="226" class="tagline" text-anchor="start">SYSTEM DESIGN</text>
+    <rect x="832" y="214" width="8" height="13" class="cursor"/>
+  </g>
+
+  <!-- Tiny bottom-right coordinates -->
+  <text x="856" y="248" class="tagline" text-anchor="end" style="opacity:0.3">45.3°N  126.6°E</text>
+</svg>
