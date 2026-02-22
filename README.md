@@ -31,8 +31,8 @@
 ### 📊 开发者统计 / Github Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=你的GitHub用户名&show_icons=true&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的GitHub用户名&layout=compact&langs_count=6&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amo0114&show_icons=true&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amo0114&layout=compact&langs_count=6&title_color=36BCF7&icon_color=36BCF7&text_color=ffffff&bg_color=0d1117&hide_border=true" />
 </p>
 
 ---
@@ -40,11 +40,11 @@
 ### 🐍 贡献记录 / Contribution Snake
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的GitHub用户名@output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="https://cdn.jsdelivr.net/gh/amo0114/amo0114@output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=你的GitHub用户名&label=PROFILE+VIEWS&color=36BCF7&style=flat" alt="Views" />
+  <img src="https://komarev.com/ghpvc/?username=amo0114&label=PROFILE+VIEWS&color=36BCF7&style=flat" alt="Views" />
 </p>
