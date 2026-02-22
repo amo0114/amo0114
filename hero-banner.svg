@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <rect width="800" height="240" fill="#0d1117" rx="8"/>
+  
+  <defs>
+    <pattern id="matrix-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#36BCF7" fill-opacity="0.12"/>
+    </pattern>
+    <linearGradient id="blue-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#36BCF7" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0b3e59" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="240" fill="url(#matrix-grid)" />
+
+  <rect x="0" y="20" width="4" height="200" fill="url(#blue-glow)" />
+
+  <text x="40" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" font-weight="bold" fill="#36BCF7">></text>
+  <text x="65" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="4">MOYUAN</text>
+
+  <text x="40" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e" letter-spacing="1">
+    BACKEND ENGINEER &nbsp; | &nbsp; SYSTEM ARCHITECTURE &nbsp; | &nbsp; DEVOPS
+  </text>
+
+  <text x="40" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="300" fill="#c9d1d9">
+    "我不愿用冗余的代码垒叠废墟，我更渴望以架构雕刻时光。"
+  </text>
+  
+  <text x="40" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="300" fill="#8b949e" opacity="0.8">
+    从高并发的洪流中寻找缓存的静谧，让线上跳动的每一个字节都生生不息。
+  </text>
+
+  <rect x="740" y="185" width="12" height="12" fill="#36BCF7">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
