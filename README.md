@@ -18,55 +18,26 @@
 
 ---
 
-<table width="100%">
-<tr>
-<td width="54%" valign="top">
+### ✦ ABOUT
 
-## ✦ ABOUT
+> **“系统如同夜行的列车。速度人人看得见，稳定却藏在告警响起后的沉默与回滚之间。”**
+>
+> <sub><b>领域</b>：后端开发 · 系统设计 · DevOps 工程化</sub><br/>
+> <sub><b>关注</b>：缓存策略 / 异步解耦 / 性能优化 / CI·CD 容器化交付</sub><br/>
+> <sub><b>取向</b>：把「能跑」写成「可观测、可恢复、可迭代」</sub>
 
-> 系统如同夜行的列车。  
-> 速度人人看得见，  
-> 稳定却要靠一次次“把它拉回轨道”的手感。
+<br/>
 
-<sub><b>后端开发 · 系统设计 · DevOps 工程化</b></sub><br/>
-<sub>缓存策略 / 异步解耦 / 性能优化 / CI·CD</sub>
+### 🛠 TECH STACK
 
-</td>
-
-<td width="46%" valign="top">
-
-## 🛠 TECH STACK
-
-<table width="100%">
-<tr>
-  <td width="30%"><b>Backend</b></td>
-  <td><img src="https://skillicons.dev/icons?i=java,spring" /></td>
-</tr>
-<tr>
-  <td><b>Data</b></td>
-  <td><img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" /></td>
-</tr>
-<tr>
-  <td><b>Messaging</b></td>
-  <td><img src="https://skillicons.dev/icons?i=rabbitmq" /></td>
-</tr>
-<tr>
-  <td><b>DevOps</b></td>
-  <td><img src="https://skillicons.dev/icons?i=docker,nginx,linux" /></td>
-</tr>
-<tr>
-  <td><b>Frontend</b></td>
-  <td><img src="https://skillicons.dev/icons?i=vue,ts" /></td>
-</tr>
-<tr>
-  <td><b>Tooling</b></td>
-  <td><img src="https://skillicons.dev/icons?i=git,maven,idea" /></td>
-</tr>
-</table>
-
-</td>
-</tr>
-</table>
+<p>
+  <code>Backend   </code>&nbsp;<img src="https://skillicons.dev/icons?i=java,spring" valign="middle" /><br/>
+  <code>Data      </code>&nbsp;<img src="https://skillicons.dev/icons?i=mysql,mongodb,redis" valign="middle" /><br/>
+  <code>Messaging </code>&nbsp;<img src="https://skillicons.dev/icons?i=rabbitmq" valign="middle" /><br/>
+  <code>DevOps    </code>&nbsp;<img src="https://skillicons.dev/icons?i=docker,nginx,linux" valign="middle" /><br/>
+  <code>Frontend  </code>&nbsp;<img src="https://skillicons.dev/icons?i=vue,ts" valign="middle" /><br/>
+  <code>Tooling   </code>&nbsp;<img src="https://skillicons.dev/icons?i=git,maven,idea" valign="middle" />
+</p>
 
 ---
 
