@@ -1,73 +1,102 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&lines=MoYuan;System+Architecture+&+DevOps;Building+for+Scale+and+Observability" alt="Typing SVG" />
+```
+███╗   ███╗ ██████╗ ██╗   ██╗██╗   ██╗ █████╗ ███╗   ██╗
+████╗ ████║██╔═══██╗╚██╗ ██╔╝██║   ██║██╔══██╗████╗  ██║
+██╔████╔██║██║   ██║ ╚████╔╝ ██║   ██║███████║██╔██╗ ██║
+██║╚██╔╝██║██║   ██║  ╚██╔╝  ██║   ██║██╔══██║██║╚██╗██║
+██║ ╚═╝ ██║╚██████╔╝   ██║   ╚██████╔╝██║  ██║██║ ╚████║
+╚═╝     ╚═╝ ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
+```
 
-<p align="center">
-  <a href="mailto:moyuan@oai-o.com">
-    <img src="https://img.shields.io/badge/MAIL-moyuan%40oai--o.com-000000?style=flat-square&logo=gmail&logoColor=36BCF7&labelColor=000000" alt="Email" />
-  </a>
-  <img src="https://img.shields.io/badge/VIEWS-Dynamic_Tracking-000000?style=flat-square&logo=github&logoColor=36BCF7&labelColor=000000" alt="Views" />
-  <img src="https://img.shields.io/badge/FOCUS-Backend_%2F_DevOps-000000?style=flat-square&logo=target&logoColor=36BCF7&labelColor=000000" alt="Focus" />
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=14&pause=2000&color=C9D1D9&center=true&vCenter=true&width=600&lines=Backend+Engineer+%2F+System+Design+%2F+DevOps;Writing+code+that+ships%2C+scales%2C+and+survives." alt="Typing SVG" />
+
+<br/>
+
+[![Email](https://img.shields.io/badge/moyuan%40oai--o.com-000000?style=flat-square&logo=gmail&logoColor=white)](mailto:moyuan@oai-o.com)
+&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=amo0114&label=views&color=000000&style=flat-square)
+&nbsp;
+![Focus](https://img.shields.io/badge/Java_·_Spring_Boot_·_Docker-000000?style=flat-square)
 
 </div>
 
-<br>
+---
 
-### ✦ P H I L O S O P H Y
+## Philosophy
 
-> **"Engineering is not about stacking features; it's about crafting observable, scalable, and resilient systems."**
+> 功能不是终点，线上可跑、可观测、能迭代，才算完成。
 
-比起功能的无脑堆砌，我更在意把项目打造成**线上可跑、可观测、可迭代**的工程化作品。我致力于在后端架构与 DevOps 之间建立桥梁，专注于高并发环境下的性能压榨（缓存与 MQ 协同）、SLA 可靠性保障以及 CI/CD 的容器化无缝交付。
+我关注的不是把功能堆上去，而是把系统设计好。
+高并发下的缓存策略、消息队列的解耦边界、容器化交付的可重复性——这些才是一个后端项目真正的骨架。
 
-<br>
+目前正在从「能把事做完的工程师」进化为「能把系统想清楚的架构师」。
 
-### ✦ T E C H N I C A L _ S T A C K
+---
+
+## Stack
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
-    <tr>
-      <td align="center" width="280"><b>Backend & Core</b></td>
-      <td align="center" width="280"><b>Data & DevOps</b></td>
-      <td align="center" width="280"><b>Frontend & Env</b></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://skillicons.dev/icons?i=java,spring,rabbitmq&perline=3" alt="Backend" /></td>
-      <td align="center"><img src="https://skillicons.dev/icons?i=mysql,redis,mongodb,docker,nginx,linux&perline=3" alt="DevOps" /></td>
-      <td align="center"><img src="https://skillicons.dev/icons?i=vue,ts,idea,git,maven&perline=3" alt="Tools" /></td>
-    </tr>
-  </table>
+
+| Layer | Technologies |
+|---|---|
+| **Language & Runtime** | Java 17 · Spring Boot · Spring Cloud |
+| **Async & Messaging** | RabbitMQ · Redis Pub/Sub · SSE |
+| **Storage** | MySQL · Redis · MongoDB |
+| **Delivery** | Docker · Nginx · Linux · CI/CD |
+| **Frontend (Full-stack)** | Vue 3 · TypeScript |
+| **Toolchain** | Git · Maven · IntelliJ IDEA |
+
 </div>
 
-<br>
+---
 
-### ✦ S I G N A T U R E _ P R O J E C T S
+## Projects
 
-- <b><a href="#">🏠 房屋租赁系统 (Rent House Architecture)</a></b>
-  <br>
-  <sup><kbd>Spring Boot</kbd> <kbd>Vue3</kbd> <kbd>Docker</kbd> <kbd>Redis</kbd> <kbd>MQ</kbd></sup>
-  <br>
-  <i>前后端分离全栈实践，深度整合 Redis 缓存与 RabbitMQ，实现高可用容器化部署与解耦。</i>
+### [Rent House](https://github.com/amo0114) — 房屋租赁平台
 
-- <b><a href="#">🍲 餐饮平台 (Foodie Platform)</a></b>
-  <br>
-  <sup><kbd>High Concurrency</kbd> <kbd>LBS</kbd> <kbd>Multi-level Cache</kbd></sup>
-  <br>
-  <i>针对高频访问重构的底层服务，攻克复杂位置计算、列表分页策略与多级缓存一致性难题。</i>
+全栈工程化实践。前后端分离架构，Redis 多级缓存降低热点数据压力，RabbitMQ 解耦核心业务流，最终以 Docker Compose 实现一键部署交付。
 
-- <b><a href="#">🤖 交互式 AI (MoGPT)</a></b>
-  <br>
-  <sup><kbd>LLM</kbd> <kbd>SSE Streaming</kbd> <kbd>Context Management</kbd></sup>
-  <br>
-  <i>沉浸式 AI 应用，支持深度会话上下文管理机制与类 ChatGPT 的低延迟流式输出体验。</i>
+`Spring Boot` `Vue 3` `Redis` `RabbitMQ` `Docker`
 
-<br>
+---
 
-### ✦ T E L E M E T R Y
+### [Foodie Platform](https://github.com/amo0114) — 餐饮聚合平台
+
+LBS 场景下的高频访问优化。重点攻克复杂列表分页策略与多级缓存一致性问题，Redis 协同设计支撑高并发写入。
+
+`LBS` `Redis` `高并发` `缓存一致性`
+
+---
+
+### [MoGPT](https://github.com/amo0114) — AI 交互应用
+
+接入 LLM 的沉浸式会话系统。实现服务端 SSE 流式推送，完整会话上下文管理，交互体验对标 ChatGPT。
+
+`LLM` `SSE` `Spring AI` `会话管理`
+
+---
+
+## Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amo0114&show_icons=true&title_color=36BCF7&icon_color=36BCF7&text_color=8b949e&bg_color=00000000&hide_border=true&count_private=true&locale=en" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amo0114&layout=compact&langs_count=6&title_color=36BCF7&text_color=8b949e&bg_color=00000000&hide_border=true&locale=en" width="48%" alt="Top Languages" />
-  <br><br>
-  <img src="https://raw.githubusercontent.com/amo0114/amo0114/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="100%" />
+
+<img src="https://github-readme-stats-psi-seven-77.vercel.app/api?username=amo0114&show_icons=true&title_color=C9D1D9&icon_color=C9D1D9&text_color=8B949E&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true&custom_title=Overview" width="47%" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats-psi-seven-77.vercel.app/api/top-langs/?username=amo0114&layout=compact&langs_count=6&title_color=C9D1D9&text_color=8B949E&bg_color=0d1117&hide_border=true&custom_title=Languages" width="47%" />
+
+</div>
+
+---
+
+## Contributions
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/amo0114/amo0114/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%" />
+</div>
+
+---
+
+<div align="center">
+<sub>Building systems that ship, survive, and scale.</sub>
 </div>
