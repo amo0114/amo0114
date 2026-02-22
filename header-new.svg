@@ -1,0 +1,91 @@
+<svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" width="900" height="240">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=DM+Mono:wght@300;400&amp;display=swap');
+
+      .corner  { stroke: #111111; stroke-width: 1.8; fill: none; }
+      .grid    { stroke: #bbbbbb; stroke-width: 0.6; opacity: 0.3; }
+      .name    {
+        font-family: 'Bebas Neue', 'Arial Black', sans-serif;
+        font-size: 116px;
+        fill: #111111;
+        letter-spacing: 20px;
+      }
+      .tagline {
+        font-family: 'DM Mono', 'Courier New', monospace;
+        font-size: 11px;
+        fill: #888888;
+        letter-spacing: 4px;
+      }
+      .accent  { stroke: #111111; stroke-width: 1; }
+      .dot     { fill: #111111; }
+      .cursor  { fill: #111111; animation: blink 1s step-end infinite; }
+      .pulse   { animation: pulse 2.5s ease infinite; }
+
+      .name-clip { animation: revealX 1.3s cubic-bezier(0.77,0,0.18,1) 0.15s both; }
+      .divline   { animation: expandW 1.0s cubic-bezier(0.77,0,0.18,1) 0.40s both; }
+      .l1 { animation: fadeUp 0.7s ease 0.00s both; }
+      .l2 { animation: fadeUp 0.7s ease 0.15s both; }
+      .l3 { animation: fadeUp 0.7s ease 0.55s both; }
+      .l4 { animation: fadeUp 0.7s ease 0.75s both; }
+      .l5 { animation: fadeUp 0.7s ease 0.95s both; }
+      .c1 { animation: fadeUp 0.5s ease 0.00s both; }
+      .c2 { animation: fadeUp 0.5s ease 0.08s both; }
+      .c3 { animation: fadeUp 0.5s ease 0.16s both; }
+      .c4 { animation: fadeUp 0.5s ease 0.24s both; }
+
+      @keyframes fadeUp  { from{opacity:0;transform:translateY(10px);} to{opacity:1;transform:translateY(0);} }
+      @keyframes expandW { from{transform:scaleX(0);transform-origin:left;} to{transform:scaleX(1);transform-origin:left;} }
+      @keyframes revealX { from{clip-path:inset(0 100% 0 0);} to{clip-path:inset(0 0% 0 0);} }
+      @keyframes blink   { 0%,100%{opacity:1;} 50%{opacity:0;} }
+      @keyframes pulse   { 0%,100%{opacity:0.3;} 50%{opacity:1;} }
+    </style>
+    <clipPath id="nc"><rect x="0" y="0" width="900" height="240"/></clipPath>
+  </defs>
+
+  <!-- Grid -->
+  <line x1="0"   y1="55"  x2="900" y2="55"  class="grid"/>
+  <line x1="0"   y1="195" x2="900" y2="195" class="grid"/>
+  <line x1="210" y1="0"   x2="210" y2="240" class="grid"/>
+  <line x1="690" y1="0"   x2="690" y2="240" class="grid"/>
+
+  <!-- Corner brackets -->
+  <g class="c1"><polyline points="26,46 26,26 46,26"     class="corner"/></g>
+  <g class="c2"><polyline points="854,26 874,26 874,46"   class="corner"/></g>
+  <g class="c3"><polyline points="46,214 26,214 26,194"   class="corner"/></g>
+  <g class="c4"><polyline points="854,214 874,214 874,194" class="corner"/></g>
+
+  <!-- Top labels -->
+  <g class="l1"><text x="42"  y="44" class="tagline">[ PROFILE — 01 ]</text></g>
+  <g class="l2"><text x="858" y="44" class="tagline" text-anchor="end">BACKEND ENGINEER</text></g>
+
+  <!-- Main name — wipe left-to-right -->
+  <g style="clip-path:url(#nc)">
+    <g class="name-clip">
+      <text x="450" y="168" class="name" text-anchor="middle">MOYUAN</text>
+    </g>
+  </g>
+
+  <!-- Divider under name -->
+  <g class="divline">
+    <line x1="42" y1="184" x2="858" y2="184" class="accent"/>
+  </g>
+
+  <!-- Bottom info row -->
+  <g class="l3">
+    <circle cx="50"  cy="208" r="2.5" class="dot"/>
+    <text x="62" y="212" class="tagline">SPRING BOOT</text>
+  </g>
+  <g class="l4">
+    <circle cx="215" cy="208" r="2.5" class="dot pulse"/>
+    <text x="227" y="212" class="tagline">REDIS · RABBITMQ · DOCKER</text>
+  </g>
+  <g class="l5">
+    <text x="690" y="212" class="tagline" text-anchor="start">SYSTEM DESIGN</text>
+    <rect x="826" y="200" width="8" height="13" class="cursor"/>
+  </g>
+
+  <!-- Watermark -->
+  <text x="858" y="228" class="tagline" text-anchor="end" style="opacity:0.18;">45.3°N  126.6°E</text>
+
+</svg>
