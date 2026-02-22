@@ -9,7 +9,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,rabbitmq,docker,nginx,linux,git,maven,idea,vue,ts&perline=7" />
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,rabbitmq,docker,nginx,linux,git,maven,idea,vue,ts&perline=7&theme=light" />
 </p>
 
 <p align="center">
