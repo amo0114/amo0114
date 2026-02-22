@@ -32,5 +32,7 @@
 
   <br/><br/>
 
-  <sub><code>// 让日志记住夜色，让发布迎来清晨。</code></sub>
+  <p align="center">
+  <code><b>// 让日志记住夜色，让发布迎来清晨。</b></code>
+</p>
 </div>
