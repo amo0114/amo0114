@@ -9,9 +9,8 @@
 <br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,rabbitmq,docker,nginx,linux,git,maven,idea,vue,ts&perline=7&theme=light" />
+  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,redis,rabbitmq,docker,nginx,linux,git,maven,gradle,idea,vue,react,ts&perline=8&theme=light" />
 </p>
-
 <p align="center">
   <i>“善建者不拔，善抱者不脱。” —— 《道德经》</i>
 </p>
